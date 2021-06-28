@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
+@import url(reset.css);
+@import url(header.css);
+
+
+body {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+.section {
+    background: url("../upload/Background.png") no-repeat center/cover;
+}
+
+.contact-main {
+    padding: 76px 130px 120px 130px;
+}
+
+.contact-main::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.contact-main-form {
+    color: #000;
+    float: left;
+    padding: 67px 83px 80px 83px;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.contact-main-form-title {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 16px;
+    line-height: 42px;
+}
+
+.form-label {
+    display: block;
+    color: #ACACAC;
+    font-size: 12px;
+    line-height: 28px;
+    text-transform: uppercase;
+    padding-bottom: 2px;
+}
+
+.form-input {
+    width: 373px;
+    border: none;
+    border-radius: 5px;
+    padding: 0 0 0 46px;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.email {
+    height: 42px;
+    margin-bottom: 19px;
+    background: url("../upload/Envelope.svg") 5% 50%/16px no-repeat #F6F6F6;
+}
+
+.text {
+    background: url("../upload/Message.svg") 5% 20%/16px no-repeat #F6F6F6;
+    resize: none;
+    margin-bottom: 40px;
+    padding-top: 10px;
+    /*Можно жестко задать высоту, можно оставить высоту в 4 строки я в этом слкчае для соответствию макету задал высоту */
+    height: 76px;
+}
+
+.form-button {
+    display: block;
+    margin: auto;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    padding: 20px 67px;
+    background-color: #A054C6;
+    border-radius: 100px;
+    border: none;
+    color: #fff;
+}
+
+.contact-main-contactus {
+    position: relative;
+    display: inline-block;
+    float: right;
+    padding: 66px 53px 45px 52px;
+    border: solid 2px;
+    border-radius: 10px;
+}
+
+.contact-main-contactus-row {
+    width: 173px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.contact-main-contactus-wrap .contact-main-contactus-row:first-child {
+    padding: 0 56px 40px 0;
+}
+
+/*Использую -margin для устранения дефолтного отступа инлайнового блока, как еще один вариант*/
+
+.contact-main-contactus-wrap .contact-main-contactus-row:nth-child(2) {
+    width: 153px;
+    margin-left: -4px;
+}
+
+.contact-main-contactus-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 66px;
+}
+
+.contact-main-contactus-title::after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 41px;
+    top: 126px;
+    left: 223px;
+    background-color: #A054C6;
+}
+
+.contact-main-contactus-label {
+    font-size: 12px;
+    line-height: 28px;
+    color: #ACACAC;
+    font-weight: 400;
+}
+
+.contact-main-contactus-text {
+    font-family: Domine serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
