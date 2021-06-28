@@ -15,7 +15,9 @@ body {
 }
 
 .contact-main {
-    padding: 76px 130px 120px 130px;
+    max-width: 1140px;
+    margin:auto;
+    padding: 76px 0 120px 0;
 }
 
 .contact-main::after {
@@ -36,7 +38,7 @@ body {
     font-size: 32px;
     font-weight: 700;
     text-align: center;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
     line-height: 42px;
 }
 
@@ -46,7 +48,7 @@ body {
     font-size: 12px;
     line-height: 28px;
     text-transform: uppercase;
-    padding-bottom: 2px;
+    margin-bottom: 2px;
 }
 
 .form-input {
@@ -90,7 +92,6 @@ body {
 
 .contact-main-contactus {
     position: relative;
-    display: inline-block;
     float: right;
     padding: 66px 53px 45px 52px;
     border: solid 2px;
@@ -103,8 +104,11 @@ body {
     vertical-align: top;
 }
 
+.contact-main-contactus-wrap{
+    margin: 0 0 40px 0;
+}
 .contact-main-contactus-wrap .contact-main-contactus-row:first-child {
-    padding: 0 56px 40px 0;
+    margin: 0 56px 0 0;
 }
 
 /*Использую -margin для устранения дефолтного отступа инлайнового блока, как еще один вариант*/
@@ -141,7 +145,7 @@ body {
 }
 
 .contact-main-contactus-text {
-    font-family: Domine serif;
+    font-family: Domine, serif;
     font-size: 14px;
     line-height: 22px;
     font-weight: 400;

@@ -1,6 +1,8 @@
 .contact-header {
-    padding: 0 241px 0 241px;
+    padding: 32px 0;
     text-align: center;
+    margin: auto;
+    max-width: 916px;
 }
 
 .contact-header::after {
@@ -11,11 +13,10 @@
 
 .contact-header-nav {
     list-style-type: none;
-    padding: 35px 0;
 }
 .contact-header-nav li {
     display: inline-block;
-    line-height: 19px;
+    line-height: 20px;
 }
 
 .contact-header-nav li:nth-child(2) {
@@ -28,9 +29,4 @@
 
 .right {
     float: right;
-}
-
-.contact-header-logo {
-    display: inline-block;
-    margin: 32px 0;
 }
